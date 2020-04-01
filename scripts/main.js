@@ -7,7 +7,7 @@ myImage.onclick = function() {
   } else {
   myImage.setAttribute('src', 'images/DogPark.JPG');
   }
-};
+}
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
