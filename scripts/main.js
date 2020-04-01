@@ -8,9 +8,9 @@ document.querySelector('h1').onclick = function () {
 let myImage.document.querySelector('img');
 
 myImage.onclick = function() {
-  let mySrc = myImage.getAtrribute('src');
+  let mySrc = myImage.getAttribute('src');
   if(mySrc === 'images/DogPark.JPG') { 
-    myImage.setAtrribute('src', 'images/UrbsInHorto.JPG');
+    myImage.setAttribute('src', 'images/UrbsInHorto.JPG');
   } else {
   myImage.setAttribute('src', 'images/DogPark.JPG');
   }
