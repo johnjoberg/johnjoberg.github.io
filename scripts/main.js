@@ -9,9 +9,9 @@ let myImage.document.querySelector('img');
 
 myImage.onclick = function() {
   let mySrc = myImage.getAtrribute('src');
-  if(mySrc === 'images/firstImage.png') { 
-    myImage.setAtrribute('src', 'images/secondImage.png')
+  if(mySrc === 'images/DogPark.JPG') { 
+    myImage.setAtrribute('src', 'images/FritzCouch.JPG')
   } else {
-  myImage.setAttribute('src', 'images/firstImage.png');
+  myImage.setAttribute('src', 'images/DogPark.JPG');
   }
 }
