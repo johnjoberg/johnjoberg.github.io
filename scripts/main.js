@@ -7,7 +7,7 @@ myImage.onclick = function() {
   } else {
   myImage.setAttribute('src', 'images/DogPark.JPG');
   }
-};
+}
 
 let myButton = document.querySelector('button');
 let myHeading = document.querySelector('h1');
@@ -18,7 +18,7 @@ function setUserName() {
     setUserName();
   } else {
   localStorage.setItem('name', myName);
-  myHeading.textContent = 'Mozilla is cool,' + myName;
+  myHeading.innerHTML = 'Mozilla is cool,' + myName;
 }
 
 if(!localStorage.getItem('name')) {
@@ -30,4 +30,4 @@ if(!localStorage.getItem('name')) {
 
 myButton.onclick = function() {
   setUserName();
-};
+}
