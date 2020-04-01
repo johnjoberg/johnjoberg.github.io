@@ -8,3 +8,19 @@ myImage.onclick = function() {
   myImage.setAttribute('src', 'images/DogPark.JPG');
   }
 }
+
+let myButton = document.querySelector('button');
+let myHeading = document.querySelector('h1');
+
+function setUserName() {
+  let myName = prompt('Please enter your name.');
+  localStorage.setItem('name', myName);
+  myHeading.textContext = 'Mozilla is cool' + myName);
+}
+
+if(!localStorage.getItem('name')) {
+  setUserName(); 
+  } else {
+  let storedName = localStorage.getItem('name');
+    myHeading.textContext = 'Mozilla is cool' + storedName;
+   }
