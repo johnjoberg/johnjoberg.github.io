@@ -3,6 +3,11 @@ html {
   background-color: rgb(86,220,255);
 }
 
+body {
+  max-width: 32rem;
+  margin: auto;
+}
+
 #headerimage {
   align-items: center;
   justify-content: center;
